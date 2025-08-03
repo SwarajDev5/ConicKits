@@ -1,0 +1,82 @@
+# ConicKits Messages
+# ============================================= #
+#
+#      ____            _        _  ___ _
+#    / ___|___  _ __ (_) ___  | |/ (_) |_ ___
+#   | |   / _ \| '_ \| |/ __| | ' /| | __/ __|
+#  | |__| (_) | | | | | (__  | . \| | |_\__ \
+#  \____\___/|_| |_|_|\___| |_|\_\_|\__|___/
+#
+#
+# ============================================= #
+#
+prefix: "&b&lConicKits &7➜"
+
+# Plugin Info - DO NOT CHANGE ANYTHING IN PLUGIN-INFO
+plugin-info-header: "&b&lConicKits &7- &fPlugin Information" # DO NOT CHANGE
+plugin-info-name: " &7• &bName: &fConicKits" # DO NOT CHANGE
+plugin-info-version: " &7• &bVersion: &f1.3.1" # DO NOT CHANGE
+plugin-info-author: " &7• &bAuthor: &fSwarajDev" # DO NOT CHANGE
+plugin-info-license: " &7• &bLicense: &fCIT-VI2H-CUWL2-WHCF" # DO NOT CHANGE
+plugin-info-website: " &7• &bLinked with: &fhttps://api.hetshield.sbs/api/DDoS/193623432" # DO NOT CHANGE
+
+# General Messages
+plugin-enabled: "&b&lConicKits &7➜ &fPlugin has been &aenabled"
+plugin-disabled: "&b&lConicKits &7➜ &fPlugin has been &cdisabled"
+player-only: "&b&lConicKits &7➜ &fOnly &bplayers &fcan use this command!"
+no-permission: "&b&lConicKits &7➜ &fYou don't have &bpermission &fto use this command!"
+player-not-found: "&b&lConicKits &7➜ &fPlayer &bnot found!"
+config-reloaded: "&b&lConicKits &7➜ &fConfiguration &breloaded"
+
+# AutoGG Messages
+autogg-enabled: "&b&lConicKits &7➜ &fAutoGG has been &aenabled"
+autogg-disabled: "&b&lConicKits &7➜ &fAutoGG has been &cdisabled"
+
+# Location Messages
+editor-location-set: "&b&lConicKits &7➜ &fEditor location set to your &bcurrent position"
+spawn-location-set: "&b&lConicKits &7➜ &fSpawn location set to your &bcurrent position"
+teleported-to-spawn: "&b&lConicKits &7➜ &fTeleported to &bspawn"
+
+# Command Usages
+conickits-usage: |
+  &b&lConicKits &7➜ &fConicKits Admin Commands:
+  &b/conickits setediting &7- Set editor location
+  &b/conickits setspawn &7- Set spawn location
+  &b/conickits reload &7- Reload configuration
+
+kit-usage: |
+  &b&lConicKits &7➜ &fKit Commands:
+  &b/kit create <name> &7- Create new kit
+  &b/kit delete <name> &7- Delete a kit
+  &b/kit list &7- List available kits
+  &b/kit give <name> [player] &7- Give kit to player
+
+kiteditor-usage: |
+  &b&lConicKits &7➜ &fKitEditor Commands:
+  &b/kiteditor edit <kit> &7- Edit existing kit
+  &b/kiteditor save &7- Save changes
+  &b/kiteditor leave &7- Leave editor
+
+giveeditedkit-usage: "&b&lConicKits &7➜ &fUsage: &b/giveeditedkit <kit> <player>"
+
+# Kit Messages
+kit-created: "&b&lConicKits &7➜ &fKit &b'{kit}' &fcreated!"
+kit-deleted: "&b&lConicKits &7➜ &fKit &b'{kit}' &fdeleted!"
+kit-not-found: "&b&lConicKits &7➜ &fKit &b'{kit}' &fnot found!"
+kit-already-exists: "&b&lConicKits &7➜ &fKit &b'{kit}' &falready exists!"
+kit-given: "&b&lConicKits &7➜ &fGiven kit &b'{kit}' &fto &b{player}"
+no-kits-available: "&b&lConicKits &7➜ &fNo kits available"
+available-kits: "&b&lConicKits &7➜ &bAvailable Kits:"
+kit-list-item: " &7- &b{kit}"
+kit-cooldown: "&b&lConicKits &7➜ &fYou must wait &b{time} &fbefore using this kit again"
+
+# Editor Messages
+editor-entered: "&b&lConicKits &7➜ &fEditing kit &b'{kit}'"
+editor-save-instruction: "&b&lConicKits &7➜ &7Use &b/kiteditor save &7to save or &b/kiteditor leave &7to cancel"
+editor-saved: "&b&lConicKits &7➜ &fChanges to kit &b'{kit}' &fsaved!"
+editor-left: "&b&lConicKits &7➜ &fLeft editor mode"
+not-in-editor: "&b&lConicKits &7➜ &fYou're not in editor mode"
+
+# Edited Kit Messages
+editedkit-given: "&b&lConicKits &7➜ &fGiven edited kit &b'{kit}' &fto &b{player}"
+no-edited-kit: "&b&lConicKits &7➜ &fPlayer &b{player} &fhasn't edited this kit"

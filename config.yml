@@ -1,0 +1,59 @@
+# ConicKits Configuration
+# ============================================= #
+#
+#      ____            _        _  ___ _
+#    / ___|___  _ __ (_) ___  | |/ (_) |_ ___
+#   | |   / _ \| '_ \| |/ __| | ' /| | __/ __|
+#  | |__| (_) | | | | | (__  | . \| | |_\__ \
+#  \____\___/|_| |_|_|\___| |_|\_\_|\__|___/
+#
+#
+# ============================================= #
+# Location Settings
+locations:
+  editor: null
+  spawn: null
+
+# AutoGG Settings
+autogg:
+  enabled: true
+  message: "gg"
+  players: []
+
+# Kit Settings
+kits:
+  default-cooldown: 300 # 5 minutes in seconds
+  max-kits: 15
+  allow-overwrite: false
+
+# Editor Settings
+editor:
+  allow-armor-edit: true
+  allow-offhand-edit: true
+  clear-inventory: true
+
+# Spawn Settings
+spawn:
+  world: world
+  x: 0
+  y: 65
+  z: 0
+  yaw: 0
+  pitch: 0
+
+# Performance Settings
+performance:
+  save-interval: 300 # 5 minutes
+  async-saving: true
+  cache-kits: true
+
+# Message Settings
+messages:
+  prefix: "&b&lConicKits &7➜"
+  use-action-bar: true
+  use-titles: false
+
+# Debug Settings
+debug:
+  enabled: false
+  level: 1 # 1 = basic, 2 = verbose

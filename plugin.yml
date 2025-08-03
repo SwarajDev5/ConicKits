@@ -1,0 +1,43 @@
+name: ConicKits
+version: 1.6
+main: fun.swarajdev.conicKits.ConicKits
+api-version: 1.21
+commands:
+  kit:
+    description: Manage kits
+    usage: /kit [create|delete|list|give] [name] [player]
+  kiteditor:
+    description: Edit kits
+    usage: /kiteditor [edit|save|leave] [name]
+  giveeditedkit:
+    description: Give edited kits
+    usage: /giveeditedkit <kit> <player>
+  conickits:
+    description: Admin commands
+    usage: /conickits [setediting|setspawn|reload|info]
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn
+  autoggtoggle:
+    description: Toggle AutoGG
+    usage: /autoggtoggle
+
+permissions:
+  conickits.kit:
+    description: Access to kit commands
+    default: true
+  conickits.kiteditor:
+    description: Access to kit editor
+    default: op
+  conickits.giveeditedkit:
+    description: Give edited kits
+    default: op
+  conickits.admin:
+    description: Admin commands
+    default: op
+  conickits.spawn:
+    description: Teleport to spawn
+    default: true
+  conickits.autogg:
+    description: Toggle AutoGG
+    default: true
